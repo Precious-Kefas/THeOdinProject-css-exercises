@@ -46,3 +46,37 @@ a {
 ul {
   list-style-type: none;
 }
+
+
+/* solution */
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 17px;
+}
+
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 17px;
+  gap: 30px;
+  
+}
+.first{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.second{
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  gap: 15px;
+
+}
+ .logo{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+} 
