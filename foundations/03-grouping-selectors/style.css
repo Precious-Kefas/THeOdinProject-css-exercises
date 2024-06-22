@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 50px;
+  border: 2px solid white;
+  background-color: #ffffff;
+  font-family: Helvetica, "Times New Roman", 
+  sans-serif;
+ 
+}
+
+#btn1{
+  color: white;
+  background-color: black;
+  padding: 5px;
+ font-size: 28px;
+ font-weight: bold;
+ margin-right: 6px;
+}
+
+#btn2{
+  background-color: yellow;
+  padding: 5px;
+   font-size: 28px;
+}
